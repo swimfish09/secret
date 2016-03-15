@@ -5,17 +5,24 @@
 <link rel="shortcut icon" href="favicon.ico" />
 <title>love</title>
 <style type="text/css">
-<!--
-@font-face {
-	font-family: digit;
-	src: url('digital-7_mono.ttf') format("truetype");
-}
--->
 </style>
 <link href="css/default.css" type="text/css" rel="stylesheet">
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/garden.js"></script>
 <script type="text/javascript" src="js/functions.js"></script>
+<script type="text/javascript" src="js/snowfall.min.jquery.js"></script>
+<script>
+    /**
+	$(function(){
+		$(document).snowfall('clear');
+		$(document).snowfall({
+			image: "images/huaban.png",
+			flakeCount:30,
+			minSize: 5,
+			maxSize: 22
+		});
+	});**/
+</script>
 </head>
 <body>
 <div style="position: fixed;">
@@ -25,7 +32,7 @@
 	<div id="content">
 		<div id="code">	
 			<span class="comments">/**</span><br />
-			<span class="space"/><span class="comments">*2016¡ª02-17,</span><br />
+			<span class="space"/><span class="comments">*2016¡ª02-17</span><br />
 			<!--<span class="space"/><span class="comments">*2016-03-08.</span><br />-->
 			<span class="space"/><span class="comments">*/</span><br />
 			Boy name = <span class="keyword">Mr</span> LIANG<br />
