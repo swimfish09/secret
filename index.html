@@ -99,10 +99,10 @@ if (!document.createElement('canvas').getContext) {
 	setTimeout(function () {
 		startHeartAnimation();
 	}, 5000);
-	//timeElapse(together);
-	//setInterval(function () {
-	//	timeElapse(together);
-	//}, 500);
+	timeElapse(together);
+	setInterval(function () {
+		timeElapse(together);
+	}, 500);
 	adjustCodePosition();
 	$("#code").typewriter();
 }
