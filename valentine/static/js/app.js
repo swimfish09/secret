@@ -26,7 +26,7 @@
 
 	function yours() {
 		render('yours');
-		lettuce.post("/serial", fullStar);
+		//lettuce.post("/serial", fullStar);
 	}
 
 	function together() {
@@ -48,7 +48,7 @@
 
     function final() {
 	    document.getElementById("results").innerHTML = '<canvas width="1440" height="740"></canvas>';
-	    lettuce.post("/serial", irRemote);
+	    //lettuce.post("/serial", irRemote);
 	    L.Event.trigger("showLove")
     }
 
