@@ -7,7 +7,7 @@
 	        down: "Watch the sunset together!",
 		    yours: "One day, you appeared O(∩_∩)O~~",
 		    together: "Then ...",
-		    rose: "IOU (Sibin @ Xiaocheng)"
+		    rose: "IOU (Sibin@Xiaocheng)"
 	    };
 
 	function render(element) {
