@@ -85,7 +85,7 @@
 	}
 
 	var p = new L.Promise();
-	show(undefined, 4000).then(
+	show(undefined, 3000).then(
 		function() {
 			return show(rise, 0)
 		}
